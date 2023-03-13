@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    padding: 36px;
+}
+
+nav {
+    display: flex;
+    /* Header background */
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    color: white;
+    padding: 20px 30px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--logo {
+    max-height: 40px;
+    padding-right: 10px;
+}
+
+.nav--title {
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.nav--header {
+    font-weight: 800;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent: 5px;
+    font-size: 16px;
+}
+
+.form--button {
+    grid-column: 1/-1;
+    font-family: "Karla", sans-serif;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000000;
+}
+
+.meme--image {
+    max-width: 100%;
+    margin: 20px 0;
+}
